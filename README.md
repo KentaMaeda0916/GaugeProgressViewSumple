@@ -1,5 +1,5 @@
 # GaugeProgressView
-SwiftUIで公式のフィットネスアプリにあるような、
+SwiftUIで
 - 背景色あり
 - アニメーションあり
 - 真ん中にテキストあり
