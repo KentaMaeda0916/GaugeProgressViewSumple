@@ -14,6 +14,7 @@ struct GaugeProgressView<Content:View>: View {
     let lineWidth: CGFloat
     let color: Color
     let content: Content
+    let opacity: Double = 0.2
     
     init(
         progressValue: Double,
@@ -43,7 +44,7 @@ struct GaugeProgressView<Content:View>: View {
             ProgressView(value: 1)
                 .progressViewStyle(
                     GaugeProgressStyle(
-                        color: .blue,
+                        color: color,
                         lineWidth: lineWidth,
                         opacity: 0.2
                     )
